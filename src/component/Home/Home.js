@@ -39,7 +39,7 @@ const Home = () => {
       </div>
       <div className="review-container mt-16">
         <h1 className="text-6xl text-center">Customer Reviews</h1>
-        <div className="short-review grid grid-cols-3 gap-10 text-center mt-8">
+        <div className="short-review md:grid grid-cols-3 gap-10 text-center mt-8">
           {showReviews.map((cart) => (
             <ReviewShort cart={cart} key={cart.id}></ReviewShort>
           ))}
