@@ -6,7 +6,7 @@ import Reviews from "../Reviews/Reviews";
 import ReviewShort from "../ReviewShort/ReviewShort";
 const Home = () => {
   const [reviews, setReviews] = useReviews();
-  const showReviews = reviews.slice(0, 6);
+  const showReviews = reviews.slice(0, 3);
   
   return (
     <div className="container">
